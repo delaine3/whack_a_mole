@@ -40,7 +40,8 @@ const Index = ({ player }) => {
            
         <ol >
         {player.map((player) => (
-          <li className="score-inner-grid">
+          <li         key={player._id}
+          className="score-inner-grid">
               <span ><h2>{player.name}</h2> </span>
               <span ><h2>{player.score}</h2> </span>
           </li>
