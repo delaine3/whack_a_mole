@@ -212,7 +212,7 @@ const PlayerForm = ({ formId, fornewPlayer = true }) => {
             </button>
 
             <>{message != "" ? message : <></>}</>
-            <div>
+            <div key={Math.random() * 100000}>
               {Object.keys(errors).map((err, index) => (
                 <li key={index}>{err}</li>
               ))}
@@ -223,7 +223,7 @@ const PlayerForm = ({ formId, fornewPlayer = true }) => {
 
       {!gameOver ? (
         <div className="game">
-          <div>
+          <div         key={Math.random() * 10000}>
             {start_called ? (
               <div>
                 {pause_called ? (
