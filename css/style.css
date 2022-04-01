@@ -62,9 +62,8 @@ h2 {
   background-color:#ffffff8f;
 }
 .mole {
-	background-image: url("mole-GIF.gif");
+	background-image: url("https://i.ibb.co/tqBwj5w/mole-GIF.gif");
 	background-size: 10vw 10vw;
-
 }
 .tile{
   
@@ -112,7 +111,8 @@ font-weight: bold;
 
 .grid {
   display: grid;
-  background-image: url("ground.jpg");
+  background-image: url("https://i.ibb.co/wMLgyp0/ground.jpg");
+  background-size: cover;
   box-shadow: 0 0 0.5vw 0.5vw #8f5a0b;
   grid-template-columns: auto auto auto auto 
 }
