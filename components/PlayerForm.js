@@ -17,6 +17,7 @@ const PlayerForm = ({ formId, fornewPlayer = true }) => {
   const [moveMole, setMoveMole] = useState(true);
   const [start_called, setStart_called] = useState(false);
   const [pause_called, setPause_called] = useState(false);
+  const [setMessage,message] = useState("");
   const [form, setForm] = useState({
     name: playerName,
     score: score,
