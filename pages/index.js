@@ -6,17 +6,7 @@ import { useState } from "react";
 const Index = ({ player }) => {
   const [message, setMessage] = useState("");
 
-  const handleDelete = async (itemId) => {
-    console.log("Writing excercise id" + itemId);
-    try {
-      await fetch(`/api/player/${itemId}`, {
-        method: "Delete",
-      });
-      router.push("/");
-    } catch (error) {
-      setMessage("Failed to delete the player.");
-    }
-  };
+
   return (
     <div>
       <h1>
