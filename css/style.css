@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 .app {
   background-image: linear-gradient(
-    rgb(177, 206, 255) rgb(104, 160, 255) rgb(60, 132, 255)
+    #08f1e56e,
+    #00ffea88,
+    #ffaf025f,
+    #3eb64899,
+    #1e94386e
   );
 
   padding-bottom: 14%;
